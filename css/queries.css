@@ -140,7 +140,7 @@ Instead , 1rem = 1em = 16px */
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s;
+    transition: all 0.5s ease-in;
 
     /* Hide navigation */
     /* Allows NO transitions at all */
@@ -149,10 +149,10 @@ Instead , 1rem = 1em = 16px */
     /* 1 hide it visually*/
     opacity: 0;
 
-    /* 2) Make it unaccessible to mouse and keyboard */
+    /* 2 Make it unaccessible to mouse and keyboard */
     pointer-events: none;
 
-    /* 3) Hide it from screen readers */
+    /* 3 Hide it from screen readers */
     visibility: hidden;
   }
 
